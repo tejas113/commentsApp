@@ -1,0 +1,79 @@
+.mainContianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.commentsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.headEdit {
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.paraEdit {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.input1Edit {
+  height: 25px;
+  width: 260px;
+}
+
+.areaEdit {
+  height: 150px;
+  width: 260px;
+  margin-top: 30px;
+}
+
+.btnEdit {
+  height: 40px;
+  width: 180px;
+  text-align: center;
+  background-color: aqua;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-width: 0px;
+}
+
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.commentsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.realCommentEdit {
+  display: flex;
+  flex-direction: column;
+}
